@@ -1,6 +1,6 @@
 {
-  "name": "Debian Base Image",
-  "version": "0.1.0",
+  "name": "rf sniff2mqtt",
+  "version": "0.1.1",
   "slug": "debian-base",
   "description": "Docker Debian base images used by Home Assistant Community Add-ons.",
   "url": "https://github.com/hassio-addons/addon-debian-base",
