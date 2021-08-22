@@ -3,9 +3,13 @@
 Reads radio frequency signal codes off of a Raspberry Pi GPIO pin. Sniffed codes are logged and published in mqtt broker in sensors/rf/receiver
 
 Set following in configuration for mqtt
+
 "mosquitto_address": "str",
+
 "mosquitto_port": "int",
+
 "mosquitto_user": "str",
+
 "mosquitto_password": "str" 
 
 ![GPIO pin layout][gpio-pins]
