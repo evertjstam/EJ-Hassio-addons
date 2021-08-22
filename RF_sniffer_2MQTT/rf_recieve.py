@@ -14,9 +14,14 @@ import json
 #mosquitto_user = "mqtt"
 #mosquitto_password = "mqtt" 
 
-with open("/data/options.json", "r") as read_file:
-    options = json.load(read_file)
-logging.info(options)
+f = open('/data/options.json', 'r')
+
+config = json.loads(f.read())
+
+f.close
+
+logging.info(config)
+
 from rpi_rf_gpiod import RFDevice
 
 rfdevice = None
