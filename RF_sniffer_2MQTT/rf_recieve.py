@@ -20,8 +20,6 @@ config = json.loads(f.read())
 
 f.close
 
-logging.info(print(config))
-
 from rpi_rf_gpiod import RFDevice
 
 rfdevice = None

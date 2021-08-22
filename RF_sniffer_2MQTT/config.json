@@ -1,6 +1,6 @@
 {
   "name": "rf sniff2mqtt",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "slug": "debian-base",
   "description": "Docker Debian base images used by Home Assistant Community Add-ons.",
   "url": "https://github.com/hassio-addons/addon-debian-base",
@@ -12,14 +12,14 @@
   "apparmor": "false",
   "full_access": "true",
   "options": {
-    "mosquitto_address": "192.168.86.161",
-      "mosquitto_port": 1883,
-      "mosquitto_user": "mqtt",
-      "mosquitto_password": "mqtt"
+    "mosquitto_address": "Null",
+      "mosquitto_port": "Null",
+      "mosquitto_user": "Null",
+      "mosquitto_password": "Null"
   },
   "schema": { 
     "mosquitto_address": "str",
-    "mosquitto_port": "int",
+    "mosquitto_port": "str",
     "mosquitto_user": "str",
     "mosquitto_password": "str"  
   }
