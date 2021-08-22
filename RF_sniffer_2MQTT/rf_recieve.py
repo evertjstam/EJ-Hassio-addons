@@ -14,7 +14,7 @@ import json
 #mosquitto_user = "mqtt"
 #mosquitto_password = "mqtt" 
 
-f = open('options.json',)
+f = open('/data/options.json',)
 
 config = json.load(f)
 
