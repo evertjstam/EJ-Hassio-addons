@@ -34,7 +34,7 @@ This add-on has been tested with a RPi 4b running [Home Assistant] and will prob
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [rpi-rf-gpiod]: https://pypi.org/project/rpi-rf-gpiod/
-[gpio-pins]: https://github.com/evertjstam/RF-Sniffer-2MQTT/blob/main/GPIO.png
-[rf-hardware]: https://github.com/evertjstam/RF-Sniffer-2MQTT/blob/main/rf-boards.png
+[gpio-pins]: https://github.com/evertjstam/EJ-Hassio-addons/blob/main/RF_sniffer_2MQTT/GPIO.png
+[rf-hardware]: https://github.com/evertjstam/EJ-Hassio-addons/blob/main/RF_sniffer_2MQTT/rf-boards.png
 [Home Assistant]: https://www.home-assistant.io
 
