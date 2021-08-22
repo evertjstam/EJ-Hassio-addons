@@ -1,6 +1,6 @@
 # Home Assistant Add-on: GPIO RF Sniffer 2MQTT
 
-Reads radio frequency signal codes off of a Raspberry Pi GPIO pin. Sniffed codes are logged and published in mqtt broker.
+Reads radio frequency signal codes off of a Raspberry Pi GPIO pin. Sniffed codes are logged and published in mqtt broker in sensors/rf/receiver
 
 Set following in configuration for mqtt
     "mosquitto_address": "str",
