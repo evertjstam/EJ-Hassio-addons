@@ -12,3 +12,5 @@ cd wiringPi
 ./build
 
 make
+
+./RFSniffer
