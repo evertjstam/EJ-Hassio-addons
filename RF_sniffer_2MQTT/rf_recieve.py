@@ -56,7 +56,7 @@ with gpiod.Chip("gpiochip0") as chip:
                     logging.info(str(rfdevice.rx_code) +
                             " [pulselength " + str(rfdevice.rx_pulselength) +
                             ", protocol " + str(rfdevice.rx_proto) + "]")
-                    os.system("mosquitto_pub -V mqttv311 -h " + config["mosquitto_address"] + " -p " + config["mosquitto_port"] + " -t 'sensors/rf/receiver' -u " + config["mosquitto_user"] + " -P " + config["mosquitto_password"] + " -m " + str(rfdevice.rx_code))
+                    os.system("mosquitto_pub -V mqttv311 -h " + config["mosquitto_address"] + " -p " + config["mosquitto_port"] + " -t " + config["mosquitto_topic"] + " -u " + config["mosquitto_user"] + " -P " + config["mosquitto_password"] + " -m " + str(rfdevice.rx_code))
                     basecode = rfdevice.rx_code
     except KeyboardInterrupt:
         sys.exit(130)

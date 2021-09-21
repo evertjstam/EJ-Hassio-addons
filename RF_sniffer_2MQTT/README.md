@@ -10,7 +10,9 @@ Set following in configuration for mqtt
 
 "mosquitto_user": "str",
 
-"mosquitto_password": "str" 
+"mosquitto_password": "str",
+
+"mosquitto_topic": "str"
 
 This add-on provides a simple way to read the radio frequency codes from a GPIO pin of a Raspberry Pi wired with generic 433/315MHz capable modules.
 

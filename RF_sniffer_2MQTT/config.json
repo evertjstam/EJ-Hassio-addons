@@ -1,6 +1,6 @@
 {
   "name": "rf sniff2mqtt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "debian-base",
   "description": "Sniff RF codes and send to mqtt.",
   "url": "https://github.com/evertjstam/EJ-Hassio-addons/tree/main/RF_sniffer_2MQTT",
@@ -15,12 +15,14 @@
     "mosquitto_address": null,
       "mosquitto_port": null,
       "mosquitto_user": null,
-      "mosquitto_password": null
+      "mosquitto_password": null,
+      "mosquitto_topic": "sensors/rf/receiver"
   },
   "schema": { 
     "mosquitto_address": "str",
     "mosquitto_port": "str",
     "mosquitto_user": "str",
-    "mosquitto_password": "str"  
+    "mosquitto_password": "str",  
+    "mosquitto_topic": "str"
   }
 }
